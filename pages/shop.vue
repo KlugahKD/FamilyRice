@@ -278,7 +278,6 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed } from 'vue';
 import { useProductsStore } from '~/stores/products';
 import { useCartStore } from '~/stores/cart';
 import type { Product } from '~/stores/products';

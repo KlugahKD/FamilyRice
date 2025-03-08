@@ -62,5 +62,13 @@ export default defineNuxtConfig({
     viewer: false,
   },
 
+  ssr: true,
+  nitro: {
+    preset: 'static',
+    prerender: {
+      failOnError: false
+    }
+  },
+
   compatibilityDate: '2025-03-06'
 })

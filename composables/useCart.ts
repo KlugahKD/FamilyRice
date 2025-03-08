@@ -1,7 +1,6 @@
 // composables/useCart.ts
 import { useCartStore } from '~/stores/cart';
 import { useProductsStore } from '~/stores/products';
-import { computed } from 'vue';
 import type { CartItem } from '~/stores/cart';
 
 export const useCart = () => {

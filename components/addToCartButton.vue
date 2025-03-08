@@ -14,7 +14,6 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue';
 import { useCartStore } from '~/stores/cart';
 import { useProductsStore } from '~/stores/products';
 import type { Product } from '~/stores/products';

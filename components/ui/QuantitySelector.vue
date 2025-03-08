@@ -35,9 +35,7 @@
     </div>
   </template>
   
-  <script setup lang="ts">
-  import { computed } from 'vue';
-  
+  <script setup lang="ts">  
   const props = defineProps({
     modelValue: {
       type: Number,

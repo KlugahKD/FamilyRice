@@ -58,7 +58,6 @@
   </template>
   
   <script setup lang="ts">
-  import { computed } from 'vue';
   import type { Product } from '~/stores/products';
   
   const props = defineProps({

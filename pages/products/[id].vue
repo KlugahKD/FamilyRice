@@ -191,7 +191,6 @@
   </template>
   
   <script setup lang="ts">
-  import { ref, onMounted, computed } from 'vue';
   import { useProductsStore } from '~/stores/products';
   import { useCartStore } from '~/stores/cart';
   import { useToast } from 'vue-toastification';
