@@ -62,7 +62,7 @@ export default defineNuxtConfig({
     viewer: false,
   },
 
-  ssr: true,
+  ssr: false,
   nitro: {
     preset: 'static',
     prerender: {
